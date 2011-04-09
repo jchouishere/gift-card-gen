@@ -50,7 +50,7 @@ seed.LeftPadding('5', 4).substr(0, 4)
 8) Certification performs validation first, then verification
 
 ---------Sample GC numbers (and their verification codes) generated based on this ruleset:
-DBBGD-G31F3-JVVFD-UD8HB   (3518)
+DBBGD-G31F3-JVVFD-UD8HB   (3518)<br>
 CGGCG-ZG3ZC-4JZB9-6P9FO   (4398)
 GBGBG-ZZZB7-NT2XR-28PY9   (7539)
 BBGBC-CC53E-P22BL-6M228   (7916)
