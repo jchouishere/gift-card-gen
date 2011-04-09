@@ -1,28 +1,32 @@
-# gift-card-gen
+gift-card-gen
+===============
 
 Generating gift-card-style random strings based on a set of pre-defined rules (random-character pools and length of random string).
 
-## Usage
+Usage
+-----
 
 1) Design a ruleset (refer to section "Rulesets"), 
 2) Implement the ruleset methods (getRand(), getSwitch(), getStrength(), and package())
 
-###getRand()
+--> getRand()
+
 Declare an array, push all possible vectors of random characters into the array, and return the array.  Note: they will be used in the order they are "pushed" into the array.
 
-###getSwitch()
+--> getSwitch()
 Return an array of the POSITIONS in which to switch to the next random vector.
 
-###getStrength()
+--> getStrength()
 Return an integer to specify how many digits there are in your gift card numbers
 
-###package()
+--> package()
 Return a "packaged" gift card number using the regex pattern you specify.
 
 3) Minify/Encode your script using YUI Compressor or Google Closure Compiler
 4) Password protect the folder, or DON'T EVEN HOST IT ONLINE (as the source code is out in the open!) - Refer to "Security Concerns"
 
-## Rulesets
+Rulesets
+--------
 
 An Example:
 
@@ -57,13 +61,16 @@ GCBBE-7F3YY-ZA6T9-HDJ88   (8293)
 BGFGB-BX3ZD-4JFTP-H22S4   (3298)
 BCFEF-F93Z3-FLTB6-9OO29   (5792)
 
-## Possible Future Improvements
+Possible Future Improvements
+----------------------------
+
 1) Read ruleset from a configuration file
 2) Ability to specify a ruleset for GC generation 
 3) Optimization of the script
 4) Test suites
 
-## Security Concerns
+Security Concerns
+-----------------
 This is a demostration of a pre-packaged solution for gift-card generation and certification.  While the rulesets can be recovered through decompilation and decoding, the security can be enhanced through the following:
 
 1) NOT hosting it on a public-facing web server (an obvious one)
@@ -73,6 +80,7 @@ This is a demostration of a pre-packaged solution for gift-card generation and c
 5) pre-generate numbers and store them in a database
 6) anything else?
 
-## Disclaimer
+Disclaimer
+----------
 
 This project shall NOT be used for cracking/generating codes for any gift card currently in the market (Amazon, Facebook, iTunes, etc).  The author assumes NO liability for such illegal use of the code.
