@@ -26,6 +26,7 @@ Return an integer to specify how many digits there are in your gift card numbers
 Return a "packaged" gift card number using the regex pattern you specify.
 
 3) Minify/Encode your script using YUI Compressor or Google Closure Compiler
+
 4) Password protect the folder, or DON'T EVEN HOST IT ONLINE (as the source code is out in the open!) - Refer to "Security Concerns"
 
 Rulesets
