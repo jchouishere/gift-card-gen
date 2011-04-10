@@ -108,11 +108,11 @@ This is a demostration of a pre-packaged solution for gift-card generation and c
 2) implementing additional layer to deter multiple attempts (delay of 5 seconds after each failed attempt, completely void the gift card after X number of 
 attempts)
 
-3) bind gift card number with its value in an external database (this has its own security loopholes)
+3) binding gift card number with its value in an external database (this has its own security loopholes
 
-4) design a different ruleset for different value classes ( $5, $10, $15, $25, etc)
+4) designing a different ruleset for different value classes ( $5, $10, $15, $25, etc)
 
-5) pre-generate numbers and store them in a database
+5) pre-generating numbers and store them in a database
 
 6) anything else?
 
