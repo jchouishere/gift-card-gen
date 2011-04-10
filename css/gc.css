@@ -1,0 +1,31 @@
+.giftcard{
+	font:bold 42px "Courier New", Courier, monospace;
+	font-style:normal;
+	color:#423542;
+	background:#FFF68F;
+	border:8px dashed #82826a;
+	text-shadow:-2px 1px 0px #fff;
+	box-shadow:-1px 0px 7px #000000;
+	-moz-box-shadow:-1px 0px 7px #000000;
+	-webkit-box-shadow:-1px 0px 7px #000000;
+	border-radius:75px 20px 75px 20px;
+	-moz-border-radius:75px 20px 75px 20px;
+	-webkit-border-radius:75px 20px 75px 20px;
+	padding:35px 77px;
+	cursor:pointer;
+	//margin:0 auto;
+
+	width:600px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-75px 0 0 -380px;
+
+	
+}
+
+.giftcard:active{
+	cursor:pointer;
+	position:relative;
+	top:2px;
+}
