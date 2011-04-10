@@ -7,6 +7,7 @@ Usage
 -----
 
 1) Design a ruleset (refer to section "Rulesets"), 
+
 2) Implement the ruleset methods (getRand(), getSwitch(), getStrength(), and package())
 
 --> getRand()
